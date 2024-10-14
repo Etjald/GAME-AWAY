@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Game-Away - Buy, Sell, and Trade Your Favorite Consoles!">
+    <title>Game-Away - Buy, Sell, Trade Consoles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #212529;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://example.com/console-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        .hero h2 {
+            font-size: 3em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #343a40;
+            padding-bottom: 10px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .service-item {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+            width: 30%;
+        }
+        .service-item h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .service-item p {
+            font-size: 1em;
+        }
+        .contact {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #343a40;
+            color: white;
+        }
+        footer {
+            background-color: #212529;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Game-Away</h1>
+    <p>Buy, Sell, and Trade Consoles with Ease</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <h2>Your Favorite Consoles at Your Fingertips</h2>
+</section>
+
+<div class="container">
+    <section id="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services">
+            <div class="service-item">
+                <h3>Buy Consoles</h3>
+                <p>Explore our collection of new and pre-owned consoles, from the latest models to retro classics.</p>
+            </div>
+            <div class="service-item">
+                <h3>Sell Your Console</h3>
+                <p>Got a console you no longer need? Sell it to us for cash or trade it for another system!</p>
+            </div>
+            <div class="service-item">
+                <h3>Repair Services</h3>
+                <p>We offer expert repair services for damaged consoles. Bring your system back to life!</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<section class="contact" id="contact">
+    <h2>Get in Touch</h2>
+    <p>Email: contact@gameaway.com | Phone: 123-456-7890</p>
+    <p>Visit our store for the best deals in console trading!</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Game-Away. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
